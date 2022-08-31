@@ -1,0 +1,53 @@
+/*  Master Styles   */
+body {
+    margin: 0px; /* default is 8pm  */
+    font-family: Arial, "Courier New", sans-serif;
+    font-weight: normal;
+    text-transform:lowercase;
+}
+
+.container {
+    display: grid;      /*  WHAT DOES THIS DO */
+    grid-template-columns:  1fr;    /*create colums at 1 fractional unit */
+}
+
+/*  Nav Styles  */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.nav-wrapper > .left-side > div {
+    
+    margin-right: 40px;
+    font-size: 1.65em;
+    text-transform:lowercase;
+}
+
+.nav-link-wrapper a {
+    color: #000000;
+    text-decoration:none;
+}
+
+/* Body styles */
+
+.items-wrapper {
+    background-color: rgb(243, 241, 236);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.cont-wrapper > .items-wrapper > .left-side {
+    padding:40px;
+}
+.cont-wrapper > .items-wrapper > .right-side {
+    padding:40px;
+}
