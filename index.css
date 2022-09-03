@@ -1,0 +1,58 @@
+/*  Master Styles  0 */
+body {
+    margin: 0px; /* default is 8pm  */
+    font-family: Arial, "Courier New", sans-serif;
+    font-weight: normal;
+    background-color: beige;
+}
+
+.container {
+    display: grid;      /*  WHAT DOES THIS DO */
+    grid-template-columns:  1fr;    /*create colums at 1 fractional unit */
+}
+
+/*  Nav Styles  */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.title {
+    
+    margin-right: 40px;
+    font-size: 1.65em;
+    text-transform:lowercase;
+}
+.nav-link-wrapper a {
+    color: #000000;
+    text-decoration:none;
+}
+
+/* Body styles */
+
+
+.items-wrapper {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-side {
+    padding:40px;
+    background-color: bisque;
+    margin:auto;
+}
+.bottom-side {
+    padding-top: 10px;
+    padding:40px;
+    background-color: blanchedalmond;
+    margin:auto;
+}
+.joke-section{
+    margin:auto;
+}

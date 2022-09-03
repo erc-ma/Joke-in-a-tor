@@ -1,0 +1,66 @@
+<!--0-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Joke-In-A-Tor</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("Ryp8KpURnakeW9HSr");
+        })();
+    </script>
+
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="title">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">The Joke-In-A-Tor</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cont-wrapper">
+            <!--everything under nav bar-->
+            <div class="items-wrapper">
+                <!--stores all items -->
+                <div class="top-side">
+                    <h4>
+                        Joke Samples: 
+                    </h4>
+                    <input type="submit" id="genButton" value="Generate sample joke">
+                    <input type="submit" id="sendButton" value="Email me a joke now">
+                    <p id="joke-section"\p>
+
+                </div>
+
+                <div class="bottom-side">
+                    <h3>
+                        Subscribe to a Joke Schedule!
+                    </h3>
+                    <h5>
+                        How many days would you like to be emailed a joke?
+                    </h5>
+                    <input type="number" id="numDays" name="7" min="1" max="365">
+                    <input type="submit" id="scheduleButton" value="Start Subscription">
+                    <p id="schedule-status">
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="generator.js"></script>
+</body>
+
+</html>
